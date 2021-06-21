@@ -1,0 +1,507 @@
+body {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.navbar {
+    height: 100px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 64px;
+    background-color: #ffffff;
+    box-shadow: 0px 12px 40px rgba(128, 128, 128, 0.1);
+}
+
+.left {
+    position: static;
+    width: 90px;
+    height: 23.28px;
+    left: 64px;
+    top: 38.36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    margin: 0px 120px;
+}
+
+.left1 {
+    position: static;
+    width: 24px;
+    height: 23.28px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 10px;
+    order: 0;
+}
+.left p {
+    position: static;
+    width: 56px;
+    height: 13px;
+    left: 34px;
+    top: 5.14px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #5576e9;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    position: absolute;
+    width: 320px;
+    height: 424px;
+    left: 317px;
+    top: 206px;
+    background-color: #f7f7fa;
+    box-shadow: 0px 12px 40px rgba(128, 128, 128, 0.1);
+}
+
+.moneyicon {
+    position: static;
+    width: 48px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+
+.card1 h2 {
+position: static;
+width: 194px;
+height: 38px;
+left: 40px;
+top: 136px;
+color: #05377F;
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 48px 0px;
+}
+
+.card1 p {
+position: static;
+width: 240px;
+height: 76px;
+left: 40px;
+top: 222px;
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+display: flex;
+align-items: center;
+color: #05377F;
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 48px 0px;
+}
+
+.btnbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    position: static;
+    width: 240px;
+    height: 38px;
+    left: 40px;
+    top: 346px;
+    background-color: #2B54E4;
+    border-radius: 4px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 84px;
+    height: 14px;
+    left: 78px;
+    top: 12px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.box p {
+    position: static;
+    width: px;
+    height: 14px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+h2 {
+    position: absolute;
+    width: 46px;
+    height: 38px;
+    left: 697px;
+    top: 399px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #05377F;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    position: absolute;
+    width: 325px;
+    height: 424px;
+    left: 797px;
+    top: 206px; 
+    background: #F7F7FA;
+    box-shadow: 0px 12px 40px rgba(128, 128, 128, 0.1);
+}
+
+.card2 h2 {
+    position: static;
+    width: 245px;
+    height: 38px;
+    left: 40px;
+    top: 136px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #05377F;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+
+.card2 p {
+    position: static;
+    width: 240px;
+    height: 76px;
+    left: 40px;
+    top: 222px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #05377F;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+
+.btnbox2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    position: static;
+    width: 240px;
+    height: 38px;
+    left: 40px;
+    top: 346px;
+    background-color: #2B54E4;
+    border-radius: 4px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 108px;
+    height: 14px;
+    left: 66px;
+    top: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+ .btnbox2 p {
+position: static;
+width: 108px;
+height: 14px;
+left: 0px;
+top: 0px;
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 8px 8px 32px;
+    position: static;
+    width: 420px;
+    height: 40px;
+    left: 332px;
+    top: 30px;
+    background-color: #F7F7FA;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 120px;
+}
+
+.search {
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 32px;
+    top: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+.center p {
+    position: static;
+    width: 54px;
+    height: 22px;
+    left: 72px;
+    top: 9px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #8098EF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 446px;
+    height: 38px;
+    left: 930px;
+    top: 31px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 120px;
+}
+
+.righticon {
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 7px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 36px;
+}
+
+.right p {
+position: static;
+height: 14px;
+top: 12px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* Primary/60 */
+color: #6987B2;
+
+
+/* Inside Auto Layout */
+flex: none;
+flex-grow: 0;
+margin: 0px 36px;
+
+}
+
+.one p {
+width: 64px;
+left: 60px;
+order: 1;
+}
+
+.two {
+    width: 32px;
+    left: 160px;
+    order: 2;
+}
+
+.three {
+    width: 60px;
+    left: 228px;
+    order: 3;
+}
+
+.notif {
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 324px;
+    top: 7px;
+    flex: none;
+    flex-grow: 0;
+    order: 4;
+    margin: 0px 36px;
+}
+
+.rightt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 62px;
+    height: 38px;
+    left: 384px;
+    top: 0px;
+    flex: none;
+    flex-grow: 0;
+    order: 5;
+    margin: 0px 36px;
+}
+
+.log {
+    width: 38px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+}
+
+.logoright {
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 62px;
+    top: 7px;
+    margin: 0px 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+}
